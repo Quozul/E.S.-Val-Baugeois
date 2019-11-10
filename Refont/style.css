@@ -1,0 +1,75 @@
+body{
+	margin: 0px;
+	background-color: #ecf0f1;
+}
+
+
+
+
+header{
+	background-color: white;
+	color: white;
+	padding-left: 60px;
+	box-shadow: 0 1px 4px 0 rgba(0,0,0,.15);
+	padding-top: 30px;
+	padding-bottom: 30px;
+	
+}
+
+#mainIcon{
+	display: block;
+	height: 125px;
+	position: absolute;
+	z-index: 30;
+	left: 0;
+	top: 0;
+}
+
+header nav{
+		background-color: #c0392b;
+		padding-top: 5px;
+		padding-bottom: 5px;
+
+	}
+
+header nav a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	font-family: "Century Gothic","Avant Garde",Avenir,TeXGyreAdventorRegular,"Heiti SC","Heiti TC",AppleGothic,sans-serif;
+	padding: 30px;
+}
+
+header nav a:hover{
+	transition: 0.2s;
+	color: black;
+}
+
+header nav li {
+	display: inline-block;
+}
+
+
+
+
+main{
+	height: 800px;
+	background-color: #2d3436;
+	margin-top: 80px;
+
+
+}
+
+
+
+
+footer .supFooter{
+	height: 200px;
+	background-color: #c0392b;
+	color: white;
+	padding: 10px;
+	margin-bottom: 50px;
+}
+footer .infFooter{
+	height: 30px;
+}
