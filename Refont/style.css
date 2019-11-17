@@ -50,8 +50,6 @@ a:visited {
 	border: 1px solid #777;
 }
 
-
-
 /* Header */
 
 /* header {} */
@@ -90,7 +88,6 @@ nav {
 #menu li a:hover {
 	background-color: lighten(#c0392b);
 }
-
 
 /* Content */
 
@@ -181,4 +178,12 @@ footer table {
 	border: 2px solid black;
 	border-radius: 12px;
 } 
+
+#remy #HoraireAnimation{
+	color: white;
+}
+
+#remy ul #horraireListe {
+	text-decoration: none;
+}
 /*/////////*/
