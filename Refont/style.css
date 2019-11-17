@@ -125,34 +125,40 @@ footer table {
 	color: black;
 	text-decoration: none;
 	float: left;
-  	width: 33.33%; /* three boxes (use 25% for four, and 50% for two, etc) */
+	width: 25%; /* three boxes (use 25% for four, and 50% for two, etc) */
 	padding: 50px;
 	border-top: 5px;
 	border-bottom : 5px;;
-
 	/*border-top-color: black;
 	border-bottom-color: black;*/
 	border: 2px solid black;
 	border-radius: 12px;
 }
+
 #remy #actuMenu nav li a {
 	padding-left: 30%;
 	font-size: 35px;
 	text-decoration: none;
 	font-family: "Century Gothic","Avant Garde",Avenir,TeXGyreAdventorRegular,"Heiti SC","Heiti TC",AppleGothic,sans-serif;
-
-}
-#remy #actuMenu nav #liStade{
-	background-image: 'img/Anfield.jpg';
+	color: #242728;
 }
 
-#remy #titre{
+#remy #actuMenu nav #liStade {
+	background-image: url("img/stade.jpg");
+}
+#remy #actuMenu nav #liHistoire {
+	background-image: url("img/histoire.jpg");
+}
+#remy #actuMenu nav #liBureau {
+	background-image: url("img/bureau.jpg");
+}
+
+#remy #titre {
 	size: 10%;
 	background-color: white;
 	color: black;
-	margin-top: 10%;
+	margin-top: 13%;
 	padding-top: 5px;
-
 	position: absolute;
   	left: 0;
   	width: 100%;
