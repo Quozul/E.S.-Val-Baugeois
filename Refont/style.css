@@ -2,6 +2,7 @@
 
 * {
 	font-family: "Century Gothic","Avant Garde",Avenir,TeXGyreAdventorRegular,"Heiti SC","Heiti TC",AppleGothic,sans-serif;
+	box-sizing: border-box;
 }
 
 body {
@@ -140,17 +141,23 @@ footer table {
 	font-size: 35px;
 	text-decoration: none;
 	font-family: "Century Gothic","Avant Garde",Avenir,TeXGyreAdventorRegular,"Heiti SC","Heiti TC",AppleGothic,sans-serif;
-	color: #242728;
+	color: white;
 }
 
 #remy #actuMenu nav #liStade {
 	background-image: url("img/stade.jpg");
+	background-position: center;
+	background-size: auto;
 }
 #remy #actuMenu nav #liHistoire {
 	background-image: url("img/histoire.jpg");
+	background-position: center;
+	background-size: auto;
 }
 #remy #actuMenu nav #liBureau {
 	background-image: url("img/bureau.jpg");
+	background-position: center;
+	background-size: auto;
 }
 
 #remy #titre {
