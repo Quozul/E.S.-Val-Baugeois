@@ -151,17 +151,19 @@ footer table {
 #remy #actuMenu nav #liStade {
 	background-image: url("img/stade.jpg");
 	background-position: center;
-	background-size: auto;
+	background-size: 100%;
 }
+
 #remy #actuMenu nav #liHistoire {
 	background-image: url("img/histoire.jpg");
 	background-position: center;
-	background-size: auto;
+	background-size: 100%;
 }
+
 #remy #actuMenu nav #liBureau {
 	background-image: url("img/bureau.jpg");
 	background-position: center;
-	background-size: auto;
+	background-size: 100%;
 }
 
 #remy #titre {
