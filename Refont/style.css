@@ -167,8 +167,21 @@ footer table {
 	border-radius: 12px;
 }
 
-#remy ul #horraireListe {
-	text-decoration: none;
+#remy #horraireListe li {
+	list-style-type:none;
+	padding: 0.25cm;
+}
+
+#remy #HoraireEntrainement ul li {
+	list-style-type:none;
+	padding: 0.25cm;
+}
+
+#remy #informationConvocation {
+	padding-bottom: 5cm;
+}
+#remy #contactDirigeant {
+	color: #242728;
 }
 
 /*/////////*/
