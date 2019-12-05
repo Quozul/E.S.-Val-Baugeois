@@ -142,18 +142,21 @@ footer table {
 	background: url("img/stade.jpg"), linear-gradient(to right bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
 	background-size: 100%;
 	background-position: center;
+	background-repeat: no-repeat;
 }
 
 #remy #actuMenu a#liHistoire {
 	background: url("img/histoire.jpg"), linear-gradient(to right bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
 	background-size: 100%;
 	background-position: center;
+	background-repeat: no-repeat;
 }
 
 #remy #actuMenu a#liBureau {
 	background: url("img/bureau.jpg"), linear-gradient(to right bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
 	background-size: 100%;
 	background-position: center;
+	background-repeat: no-repeat;
 }
 
 #remy #titre {
