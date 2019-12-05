@@ -177,8 +177,8 @@ footer table {
 	padding: 0.25cm;
 }
 
-#remy #informationConvocation {
-	padding-bottom: 5cm;
+#remy h1#informationConvocation a {
+	color: #242728;
 }
 #remy #contactDirigeant {
 	color: #242728;
