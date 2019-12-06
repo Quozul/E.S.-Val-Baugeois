@@ -187,6 +187,24 @@ footer table {
 	color: #242728;
 }
 
+#remy .mainContaineur {
+	text-align:center;
+}
+#remy div#u7 {
+	display:inline;
+	background: url("img\u7.jpg"), linear-gradient(to right bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#remy div#u7 {
+	display:inline;
+	background: url("img\u7.jpg"), linear-gradient(to right bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
 /*/////////*/
 
 #styled-table{
