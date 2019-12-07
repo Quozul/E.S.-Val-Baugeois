@@ -124,6 +124,19 @@ footer a:visited {
     color: white;
 }
 
+/* Erwan */
+.galery {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.galery img {
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0px rgba(0, 0, 0, .25);
+}
+
 /*Remy*/
 /*/////////*/
 #remy #actuMenu {
