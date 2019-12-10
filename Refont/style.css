@@ -202,3 +202,94 @@ footer a:visited {
 #styled-table{
     padding: 150px;
 }
+
+
+
+/* -- Théo --*/
+/* galerie */
+
+.container{
+    width: 800px;
+    height: 400px;
+    background-color: rgb(80,80,80);
+    overflow: hidden;
+    margin: 100px auto;
+    border : solid;
+    border: 10px;
+    border-color: rgb(80,80,80)
+}
+
+.slide{
+    width: calc(800px * 4);
+    height: inherit;
+    animation: slide 30s infinite;
+}
+
+.slide img{
+    width: 800px;
+    margin: 0px;
+    float: left;
+    bottom : -70%;
+}
+
+@keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+
+    20%{
+        transform: translateX(-800px);
+    }
+    25%{
+        transform: translateX(-800px);
+    }
+
+    45%{
+        transform: translateX(-1600px);
+    }
+    50%{
+        transform: translateX(-1600px);
+    }
+
+    70%{
+        transform: translateX(-2400px);
+    }
+    75%{
+        transform: translateX(-2400px);
+    }
+
+    95%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(0);
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
