@@ -1,13 +1,18 @@
 /* General */
 
-* {
-   /*/ font-family: "Century Gothic", "Avant Garde", Avenir, TeXGyreAdventorRegular, "Heiti SC", "Heiti TC", AppleGothic, sans-serif;/*/
-    box-sizing: border-box;
-}
 @font-face {
     font-family:"Roboto";
     src: url("font/Roboto-Black.ttf") format("ttf");
-}  
+
+    font-family:"Graduat";
+    src: url("font/Graduate/Graduate-Regular.ttf") format("ttf");
+}
+
+* {
+   /*/ font-family: "Century Gothic", "Avant Garde", Avenir, TeXGyreAdventorRegular, "Heiti SC", "Heiti TC", AppleGothic, sans-serif;/*/
+    box-sizing: border-box;
+    font-family: Roboto;
+}
 
 body {
     display: flex;
@@ -157,8 +162,8 @@ footer a:visited {
     text-decoration: none;
     color: black;
     text-align: center;
-    font-size: 32px;
-
+    font-size: 50px;
+    font-family: Graduat;
     border-radius: 12px;
     text-decoration: none;
 }
