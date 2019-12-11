@@ -1,10 +1,13 @@
 /* General */
 
 * {
-    font-family: "Century Gothic", "Avant Garde", Avenir, TeXGyreAdventorRegular, "Heiti SC", "Heiti TC", AppleGothic, sans-serif;
-    box-sizing: border-box;
+    /*/font-family: "Century Gothic", "Avant Garde", Avenir, TeXGyreAdventorRegular, "Heiti SC", "Heiti TC", AppleGothic, sans-serif;
+    /*/box-sizing: border-box;
 }
-
+@font-face {
+    font-family: "Roboto";
+    src: url(font/Roboto/Roboto-Black.ttf);
+}
 body {
     display: flex;
     flex-direction: column;
@@ -139,6 +142,9 @@ footer a:visited {
 
 /*Remy*/
 /*/////////*/
+#remy {
+    font-family: "Roboto";
+}
 #remy #actuMenu {
     display: flex;
     flex-direction: row;
