@@ -149,18 +149,24 @@ footer a:visited {
 #remy h1 {
     border: 5px solid red;
     border-radius: 12px;
+    background-color: red;
+    color: white;
    /*/ border-top: 5px solid red;  
     border-bottom: 5px solid red; /*/
 }
 #remy h2 {
     border: 5px solid red;
     border-radius: 12px;
+    background-color: red;
+    color: white;
    /*/ border-top: 5px solid red;
     border-bottom: 5px solid red; /*/
 }
 #remy h3 {
     border: 5px solid red;
     border-radius: 12px;
+    background-color: red;
+    color: white;
     /*/border-top: 5px solid red;
     border-bottom: 5px solid red;/*/
 }
@@ -228,7 +234,7 @@ footer a:visited {
 }
 
 #remy h1#informationConvocation a {
-    color: #242728;
+    color: white;
 }
 #remy #contactDirigeant {
     color: #242728;
