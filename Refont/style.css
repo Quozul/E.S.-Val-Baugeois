@@ -145,6 +145,34 @@ footer a:visited {
 #remy {
     font-family: "Roboto";
 }
+
+#remy h1 {
+    border: 5px solid red;
+    border-radius: 12px;
+   /*/ border-top: 5px solid red;  
+    border-bottom: 5px solid red; /*/
+}
+#remy h2 {
+    border: 5px solid red;
+    border-radius: 12px;
+   /*/ border-top: 5px solid red;
+    border-bottom: 5px solid red; /*/
+}
+#remy h3 {
+    border: 5px solid red;
+    border-radius: 12px;
+    /*/border-top: 5px solid red;
+    border-bottom: 5px solid red;/*/
+}
+#remy #saison {
+    border: 5px solid red;
+    border-radius: 12px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
 #remy #actuMenu {
     display: flex;
     flex-direction: row;
@@ -190,10 +218,13 @@ footer a:visited {
     list-style-type:none;
     padding: 0.25cm;
 }
-
+#remy #HoraireEntrainement {
+    text-align: center;
+}
 #remy #HoraireEntrainement ul li {
     list-style-type:none;
     padding: 0.25cm;
+  /*/  box-shadow: 20px 20px 50px grey;/*/
 }
 
 #remy h1#informationConvocation a {
