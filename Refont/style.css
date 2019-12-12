@@ -1,13 +1,23 @@
-/* General */
-
-* {
-    /*/font-family: "Century Gothic", "Avant Garde", Avenir, TeXGyreAdventorRegular, "Heiti SC", "Heiti TC", AppleGothic, sans-serif;
-    /*/box-sizing: border-box;
-}
 @font-face {
     font-family: "Roboto";
     src: url(font/Roboto/Roboto-Black.ttf);
 }
+
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url(font/Roboto/Roboto-Regular.ttf);
+}
+
+/* General */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Roboto-Regular";
+}
+
 body {
     display: flex;
     flex-direction: column;
