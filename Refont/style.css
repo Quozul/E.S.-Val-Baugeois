@@ -180,15 +180,23 @@ footer a:visited {
     /*/border-top: 5px solid red;
     border-bottom: 5px solid red;/*/
 }
-#remy #saison {
+#remy .saison {
     border: 5px solid red;
-    border-radius: 12px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
     background-color: red;
     color: white;
     text-align: center;
     font-size: 20px;
+    margin-top: 2%;
 }
-
+#remy #HoraireAnimation {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    margin-top: 0%;
+}
 #remy #actuMenu {
     display: flex;
     flex-direction: row;
@@ -234,10 +242,13 @@ footer a:visited {
     list-style-type:none;
     padding: 0.25cm;
 }
-#remy #HoraireEntrainement {
+#remy .HoraireEntrainement {
     text-align: center;
+    margin-top: 0%;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
 }
-#remy #HoraireEntrainement ul li {
+#remy .HoraireEntrainement ul li {
     list-style-type:none;
     padding: 0.25cm;
   /*/  box-shadow: 20px 20px 50px grey;/*/
@@ -249,8 +260,7 @@ footer a:visited {
 #remy #contactDirigeant {
     color: #242728;
 }
-
-/*/////////*/
+/*/////https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_opacity////*/
 
 #styled-table{
     padding: 150px;
