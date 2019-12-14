@@ -109,6 +109,11 @@ nav {
     box-shadow: 0 0 5px 0px rgba(0, 0, 0, .25);
 }
 
+p {
+    text-align: justify;
+    text-indent: 2em;
+}
+
 /* main {} */
 
 main section {
@@ -330,4 +335,22 @@ footer a:visited {
         transform: translateX(0);
     }
 
+}
+
+
+
+/* -- Erwan --*/
+/* Actualités */
+
+#navigation a {
+    text-decoration: none;
+    color: #0000ee;
+}
+
+a.back-to-top {
+    float: right;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: normal;
+    color: #0000ee;
 }
