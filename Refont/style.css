@@ -1,3 +1,6 @@
+/* -- Rémy --*/
+/* Fonts */
+
 @font-face {
     font-family: "Roboto";
     src: url(font/Roboto/Roboto-Black.ttf);
@@ -8,6 +11,7 @@
     src: url(font/Roboto/Roboto-Regular.ttf);
 }
 
+/* -- Théo - Erwan --*/
 /* General */
 
 * {
@@ -137,19 +141,6 @@ footer a:visited {
     color: white;
 }
 
-/* Erwan */
-.galery {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
-
-.galery img {
-    border-radius: 5px;
-    box-shadow: 0 0 5px 0px rgba(0, 0, 0, .25);
-}
-
 /*Remy*/
 /*/////////*/
 #remy {
@@ -224,14 +215,13 @@ footer a:visited {
     background-repeat: no-repeat;
 }
 #remy .carreStade {
-   background-color: #c0392b;
+   background-color: rgba(192,57,43, .5);
    border-radius: 12px;
-   opacity: 0.5;
    font-size: 40px;
 }
 #remy .carreStade:hover {
-    opacity: 0.9;
- }
+   background-color: rgba(192,57,43, 1);
+}
 #remy #actuMenu a#liHistoire {
     background: url("img/histoire.jpg"), linear-gradient(to right bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
     background-size: 100%;
@@ -280,60 +270,63 @@ footer a:visited {
 /* -- Théo --*/
 /* galerie */
 
-.container{
-    width: 800px;
-    height: 400px;
-    background-color: rgb(80,80,80);
+.container {
+    max-width: 800px;
+    background-color: rgb(80, 80, 80);
     overflow: hidden;
-    margin: 100px auto;
-    border : solid;
-    border: 10px;
-    border-color: rgb(80,80,80)
+    margin: 10px auto;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0px rgba(0, 0, 0, .25);
 }
 
-.slide{
+.slide {
     width: calc(800px * 4);
     height: inherit;
     animation: slide 30s infinite;
 }
 
-.slide img{
+.slide img {
     width: 800px;
     margin: 0px;
     float: left;
     bottom : -70%;
+    margin: auto;
 }
 
-@keyframes slide{
-    0%{
+@keyframes slide {
+    0% {
         transform: translateX(0);
     }
 
-    20%{
-        transform: translateX(-800px);
-    }
-    25%{
+    20% {
         transform: translateX(-800px);
     }
 
-    45%{
-        transform: translateX(-1600px);
+    25% {
+        transform: translateX(-800px);
     }
-    50%{
+
+    45% {
         transform: translateX(-1600px);
     }
 
-    70%{
-        transform: translateX(-2400px);
+    50% {
+        transform: translateX(-1600px);
     }
-    75%{
+
+    70% {
         transform: translateX(-2400px);
     }
 
-    95%{
+    75% {
+        transform: translateX(-2400px);
+    }
+
+    95% {
         transform: translateX(0);
     }
-    100%{
+
+    100% {
         transform: translateX(0);
     }
 
