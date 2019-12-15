@@ -243,7 +243,6 @@ footer a:visited {
 #remy #horraireListe li {
     list-style-type:none;
     padding: 0.25cm;
-    font-family: Robot-Regular;
 }
 #remy .HoraireEntrainement {
     text-align: center;
@@ -266,13 +265,32 @@ footer a:visited {
     border: 2px solid #c0392b;
     border-radius: 12px;
   }
-/*/////https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_opacity////*/
-
+/*/////////*/
+/* Rama */
 #styled-table{
     width: 100%;
 }
 
-
+.ramat-Titre{
+    text-align: center;
+    margin-top: 0%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #c0392b;
+  }
+  
+  #rama table:hover{
+    -webkit-transform: scale(1.01);
+    -ms-transform: scale(1.01);
+        transform: scale(1.01);
+    box-shadow: 10px 15px 7px #C7C7C7;
+  }
+  
+  #rama table{
+    border: 1px solid #777;
+  }
 
 /* -- Théo --*/
 /* galerie */

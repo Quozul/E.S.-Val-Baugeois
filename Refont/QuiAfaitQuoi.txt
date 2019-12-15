@@ -1,0 +1,5 @@
+Index : Théo (css et structure de la page) et Erwan (texte)
+Info : Rémy  (css et html)
+Coupes : Rama (css et html)
+Galerie : Théo (css et html)
+Actu : Erwan (css et html)
