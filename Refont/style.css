@@ -223,6 +223,7 @@ footer a:visited {
    background-color: rgba(192,57,43, .5);
    border-radius: 12px;
    font-size: 40px;
+   transition: .2s;
 }
 #remy .carreStade:hover {
    background-color: rgba(192,57,43, 1);
