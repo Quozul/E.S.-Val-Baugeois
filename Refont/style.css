@@ -149,7 +149,7 @@ footer a:visited {
 /*Remy*/
 /*/////////*/
 #remy {
-    font-family: "Roboto";
+    font-family: "Roboto-Regular";
 }
 
 #remy h1 {
@@ -243,6 +243,7 @@ footer a:visited {
 #remy #horraireListe li {
     list-style-type:none;
     padding: 0.25cm;
+    font-family: Robot-Regular;
 }
 #remy .HoraireEntrainement {
     text-align: center;
